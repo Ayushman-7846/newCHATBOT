@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    width: 120dvh;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    height: 7%;
+    width: 40%;
+    background-color: indigo;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:  monospace;
+    font-weight: 550;
+    font-size: x-large;
+    letter-spacing: 1px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 40%;
+    background-color: gainsboro;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    border-left: 5px solid indigo;
+    border-right: 5px solid indigo;
+}
+
+.chat-box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 4%;
+    gap: 2%;
+    overflow: auto;
+}
+
+.chats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+.chats p{
+    max-width: 80%;
+    padding: 12px 16px;
+    font-size: 0.95rem;
+}
+
+.by_user{
+    justify-content: flex-end;
+}
+.by_bot{
+    justify-content: flex-start;
+}
+
+
+.by_bot p{
+    border: 1px solid indigo;
+    border-radius: 1.5dvh 2dvh 2dvh 0dvh;
+    background-color: indigo;
+    color: white;
+}
+
+.bottom{
+    display: flex;
+    gap: 2%;
+    flex-direction: row;
+    height: 10%;
+    width: 40%;
+    padding: 1%;
+    background-color: gray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid indigo;
+    border-top: 2px solid black;
+}
+
+.go{
+    height: 5dvh;
+    width:  5dvh;
+    background-color: indigo;
+    border-radius: 100px;
+    border: none;
+}
+
+
+.input{
+    height: 70%;
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 3%;
+    color: gray;
+}
